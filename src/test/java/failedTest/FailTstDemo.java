@@ -16,7 +16,7 @@ public class FailTstDemo {
 		
 		list.add("C:\\Apps\\Fruit\\test-output\\EnableDep\\testng-failed.xml");
 		
-		runner.setTestSuites(list);
+		runner.setTestSuites(list); //Display lists
 		
 		runner.run();
 		}
