@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [EnableDep]]">
+  <test name="Smoke Testcases(failed)(failed)">
+    <classes>
+      <class name="Apple.EnblDepenPrior">
+        <methods>
+          <include name="bena"/>
+        </methods>
+      </class> <!-- Apple.EnblDepenPrior -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [EnableDep]] -->

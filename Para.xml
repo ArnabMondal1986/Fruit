@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Automation Test">
+    <test name="Smoke Testcases">
+    <parameter name="adminUserid" value="abcd"/>
+    <parameter name="adminPass" value="cde"/>    
+    <classes>
+        
+        <class name="dataDriven.Paramet"/>
+       
+    </classes>
+    
+    </test>
+    
+</suite>

@@ -1,0 +1,26 @@
+Why do I need New Profile
+
+The default Firefox profile is not very automation friendly. 
+When you want to run automation reliably on a Firefox browser it is advisable to make a separate profile. 
+Automation profile should be light to load and have special proxy and other settings to run good test.
+
+You should be consistent with the profile you use on all development and test execution machines. 
+If you used different profiles everywhere, the SSL certificates you accepted or the plug-ins you installed would be different and that would make the tests behave differently on the machines.
+
+– There are several times when you need something special in your profile to make test execution reliable. 
+The most common example is a SSL certificate settings or browser plug-ins that handles self-signed certs. 
+It makes a lot of sense to create a profile that handles these special test needs and packaging and 
+deploying it along with the test execution code.
+
+– You should use a very lightweight profile with just the settings and plug-ins you need for the execution. 
+Each time Selenium starts a new session driving a Firefox instance, it copies the entire profile in some temporary directory and 
+if the profile is big, it makes it, not only slow but unreliable as well.
+
+Example-
+
+Below are main two example where we set preference according to needs.
+Check package ssl and downloadingFiles for details.
+
+1.Handling untrusted ssl certificate.We can set in firefox profile to accept the ssl certificate.
+2.We can set preference that when we download a file it doesnot asks us whether we want want to "save file" or "cancel".
+Rather it will download on its own without asking.

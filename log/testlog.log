@@ -1,0 +1,10 @@
+2016-09-20 13:00:06,384 - LogDemo -INFO - Opening browser
+2016-09-20 13:00:06,508 - LogDemo -INFO - Getting title
+2016-09-20 13:00:06,509 - LogDemo -INFO - Displaying title
+2016-09-20 13:00:06,525 - LogDemo -INFO - Getting title length
+2016-09-20 13:00:06,525 - LogDemo -INFO - Displaying length of title
+2016-09-20 13:00:41,955 - LogDemo -INFO - Opening browser
+2016-09-20 13:00:42,079 - LogDemo -INFO - Getting title
+2016-09-20 13:00:42,080 - LogDemo -INFO - Displaying title
+2016-09-20 13:00:42,104 - LogDemo -INFO - Getting title length
+2016-09-20 13:00:42,105 - LogDemo -INFO - Displaying length of title

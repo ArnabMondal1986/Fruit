@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke Test]">
+  <test name="LinkTest(failed)">
+    <classes>
+      <class name="Apple.EnblDepenPrior">
+        <methods>
+          <include name="bena"/>
+        </methods>
+      </class> <!-- Apple.EnblDepenPrior -->
+    </classes>
+  </test> <!-- LinkTest(failed) -->
+</suite> <!-- Failed suite [smoke Test] -->
